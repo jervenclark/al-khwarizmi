@@ -1,5 +1,7 @@
 'use strict';
 
-module.exports = function() {
+var geometry = require('./geometry');
 
+module.exports = {
+	geometry: geometry
 };
