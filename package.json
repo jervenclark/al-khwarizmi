@@ -1,0 +1,33 @@
+{
+  "name": "al-khwarizmi",
+  "version": "0.0.1",
+  "description": "Math utility library",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "node index.js",
+    "start-dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jervenclark/al-khwarizmi.git"
+  },
+  "keywords": [
+    "Math",
+    "utility",
+    "precalculus",
+    "algebra"
+  ],
+  "author": "Jerven Clark Chua <jervenclark@gmail.com> (http://jervenclarkchua.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jervenclark/al-khwarizmi/issues"
+  },
+  "homepage": "https://github.com/jervenclark/al-khwarizmi#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.4.5"
+  }
+}
