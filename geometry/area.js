@@ -42,7 +42,7 @@ function quadrilateral(a, b) {
  * @return {numeric}
  */
 function polygon(a, b) {
-  var args =  numeric([a, b]);
+  var args = numeric([a, b]);
   if (!args || (args[1] === 0) || args[1] !== parseInt(args[1], 10)) {
     return false;
   } else {
