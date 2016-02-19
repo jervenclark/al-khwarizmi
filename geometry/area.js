@@ -43,7 +43,7 @@ function quadrilateral(a, b) {
  */
 function polygon(a, b) {
   var args =  numeric([a, b]);
-  if (!args || (args[1] === 0) || !Number.isInteger(args[1])) {
+  if (!args || (args[1] === 0) || args[1] !== parseInt(args[1], 10)) {
     return false;
   } else {
     var area = (Math.pow(args[0], 2) * args[1]) / (4 * Math.tan(Math.PI / args[1]));
